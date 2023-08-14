@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  max-width: 90vw;
+  margin: 20px auto;
 }
 
 .App-logo {
@@ -13,25 +14,35 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
+}
+
+.px-4 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.card-offers .MuiCard-root.MuiCard-vertical.MuiCard-variantOutlined.MuiCard-colorNeutral.MuiCard-sizeMd.css-a4iunj-JoyCard-root {
+  padding: 0;
+  justify-content: space-between;
+}
+
+.MuiCard-root.MuiCard-vertical.MuiCard-variantOutlined.MuiCard-colorNeutral {
+  margin-bottom: 1rem;
+}
+
+.width-100 {
+  width: 100%
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
