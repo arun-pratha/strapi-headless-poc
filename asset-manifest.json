@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0edacaaa.css",
-    "main.js": "/static/js/main.339b9bd3.js",
-    "static/js/787.2beffee4.chunk.js": "/static/js/787.2beffee4.chunk.js",
-    "static/media/MarkPro.otf": "/static/media/MarkPro.4beb1b1e91b40f84a58c.otf",
-    "static/media/MarkPro-Heavy.otf": "/static/media/MarkPro-Heavy.787fd9ba898cd09ad201.otf",
-    "static/media/MarkPro-Medium.otf": "/static/media/MarkPro-Medium.a00b3155485c0de04181.otf",
+    "main.css": "/strapi-headless-poc/static/css/main.0edacaaa.css",
+    "main.js": "/strapi-headless-poc/static/js/main.339b9bd3.js",
+    "static/js/787.2beffee4.chunk.js": "/strapi-headless-poc/static/js/787.2beffee4.chunk.js",
+    "static/media/MarkPro.otf": "/strapi-headless-poc/static/media/MarkPro.4beb1b1e91b40f84a58c.otf",
+    "static/media/MarkPro-Heavy.otf": "/strapi-headless-poc/static/media/MarkPro-Heavy.787fd9ba898cd09ad201.otf",
+    "static/media/MarkPro-Medium.otf": "/strapi-headless-poc/static/media/MarkPro-Medium.a00b3155485c0de04181.otf",
     "index.html": "/index.html",
-    "main.0edacaaa.css.map": "/static/css/main.0edacaaa.css.map",
-    "main.339b9bd3.js.map": "/static/js/main.339b9bd3.js.map",
-    "787.2beffee4.chunk.js.map": "/static/js/787.2beffee4.chunk.js.map"
+    "main.0edacaaa.css.map": "/strapi-headless-poc/static/css/main.0edacaaa.css.map",
+    "main.339b9bd3.js.map": "/strapi-headless-poc/static/js/main.339b9bd3.js.map",
+    "787.2beffee4.chunk.js.map": "/strapi-headless-poc/static/js/787.2beffee4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0edacaaa.css",
-    "static/js/main.339b9bd3.js"
+    "strapi-headless-poc/static/css/main.0edacaaa.css",
+    "strapi-headless-poc/static/js/main.339b9bd3.js"
   ]
 }
