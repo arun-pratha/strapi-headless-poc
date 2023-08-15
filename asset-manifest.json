@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/arun-pratha/strapi-headless-poc/static/css/main.75eb6767.css",
-    "main.js": "/arun-pratha/strapi-headless-poc/static/js/main.b39cf34d.js",
-    "static/js/787.2beffee4.chunk.js": "/arun-pratha/strapi-headless-poc/static/js/787.2beffee4.chunk.js",
-    "static/media/MarkPro.otf": "/arun-pratha/strapi-headless-poc/static/media/MarkPro.4beb1b1e91b40f84a58c.otf",
-    "static/media/MarkPro-Heavy.otf": "/arun-pratha/strapi-headless-poc/static/media/MarkPro-Heavy.787fd9ba898cd09ad201.otf",
-    "static/media/MarkPro-Medium.otf": "/arun-pratha/strapi-headless-poc/static/media/MarkPro-Medium.a00b3155485c0de04181.otf",
-    "index.html": "/arun-pratha/strapi-headless-poc/index.html",
-    "main.75eb6767.css.map": "/arun-pratha/strapi-headless-poc/static/css/main.75eb6767.css.map",
-    "main.b39cf34d.js.map": "/arun-pratha/strapi-headless-poc/static/js/main.b39cf34d.js.map",
-    "787.2beffee4.chunk.js.map": "/arun-pratha/strapi-headless-poc/static/js/787.2beffee4.chunk.js.map"
+    "main.css": "/static/css/main.0edacaaa.css",
+    "main.js": "/static/js/main.e3240d25.js",
+    "static/js/787.2beffee4.chunk.js": "/static/js/787.2beffee4.chunk.js",
+    "static/media/MarkPro.otf": "/static/media/MarkPro.4beb1b1e91b40f84a58c.otf",
+    "static/media/MarkPro-Heavy.otf": "/static/media/MarkPro-Heavy.787fd9ba898cd09ad201.otf",
+    "static/media/MarkPro-Medium.otf": "/static/media/MarkPro-Medium.a00b3155485c0de04181.otf",
+    "index.html": "/index.html",
+    "main.0edacaaa.css.map": "/static/css/main.0edacaaa.css.map",
+    "main.e3240d25.js.map": "/static/js/main.e3240d25.js.map",
+    "787.2beffee4.chunk.js.map": "/static/js/787.2beffee4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75eb6767.css",
-    "static/js/main.b39cf34d.js"
+    "static/css/main.0edacaaa.css",
+    "static/js/main.e3240d25.js"
   ]
 }
