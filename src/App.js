@@ -3,6 +3,7 @@ import Offers from './offers';
 import Blog from './components/blog';
 import BannerCarousel from './components/carousel';
 import './App.css';
+import React, { Component } from 'react';
 
 function App() {
   const [offers, setoffers] = useState([]);

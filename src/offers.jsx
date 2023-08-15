@@ -1,5 +1,6 @@
+import React, { Component } from 'react';
 import './App.css';
-import Card from '@mui/joy/Card';
+import Card from '@mui/material/Card';
 
 function Offers({ offers }) {
 
@@ -11,7 +12,7 @@ function Offers({ offers }) {
             {
                 offers.map((offer, i) => {
                     return <Card sx={{ width: 320 }}>
-                        <img src={`http://localhost:1337${offer?.attributes?.image.data.attributes.url}`} alt="offer Image" />
+                        <img src={`${offer?.attributes?.image.data.attributes.url}`} alt="offer Image" />
                         <h3>{offer?.attributes?.title}</h3>
                         <p>{offer?.attributes?.description}</p>
 

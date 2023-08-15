@@ -1,5 +1,6 @@
-import Card from '@mui/joy/Card';
+import Card from '@mui/material/Card';
 import { useState, useEffect } from 'react';
+import React from 'react';
 
 function Blog() {
     const [blogs, setBlogs] = useState([]);
@@ -7,6 +8,7 @@ function Blog() {
     useEffect(() => {
         getBlog()
     }, []);
+
     function getBlog() {
         fetch(`${process.env.REACT_APP_BACKEND}api/blogs?populate=*`)
             .then(res => res.json())
@@ -20,7 +22,7 @@ function Blog() {
             {
                 blogs.map((blog, i) => {
                     return <Card variant="outlined" sx={{ width: 420 }}>
-                        <img src={`http://localhost:1337${blog?.attributes?.blog_image.data.attributes.url}`} className="width-100" alt="blog Image" />
+                        <img src={`${blog?.attributes?.blog_image.data.attributes.url}`} className="width-100" alt="blog Image" />
                         <div className='px-4'>
                             <h3>{blog?.attributes?.title}</h3>
                             <p>{blog?.attributes?.description}</p>
